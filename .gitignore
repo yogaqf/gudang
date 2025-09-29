@@ -1,0 +1,27 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# --- Environment ---
+.env
+.env.local
+.env.*
+*.env
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- VSCode / IDE ---
+.vscode/
+.idea/
+
+# --- Jupyter Notebook Checkpoints (jika pakai notebook) ---
+.ipynb_checkpoints/
