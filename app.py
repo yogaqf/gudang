@@ -60,8 +60,8 @@ if st.button("Submit"):
                 set_table_styles([{"selector": "th", "props": [("text-align", "center")]}]),
                 hide_index=True)
 
-    else:
-        st.warning("Barang tidak ditemukan!")
+        else:
+            st.warning("Barang tidak ditemukan!")
 
 
 
